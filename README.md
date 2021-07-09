@@ -45,3 +45,19 @@ Classify the given genetic variations/mutations based on evidence from text-base
         </li>
     </ul>
  </p>
+
+### Example Datapoints
+
+**training_variants:**
+
+ID  | Gene | Variation | Class
+--- | --- | --- | ---
+1 | CBL | W802* | 2
+2 | CBL | Q249E | 2
+
+**training_variants:**
+
+ID  | Gene | Variation | Class
+--- | --- | --- | ---
+1 | CBL | W802* | 2
+2 | CBL | Q249E | 2

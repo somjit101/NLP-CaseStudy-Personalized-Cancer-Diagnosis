@@ -1,5 +1,5 @@
 # NLP CaseStudy - Personalized Cancer Diagnosis
-In this problem statement, a sequence of genetic mutations and clinical evidences, i.e. descriptive texts as recorded by domain experts are used to classify the mutations to conclusive categories, to be used for diagnosis of the patient. 
+In this problem statement, a sequence of genetic mutations and clinical evidences, i.e. descriptive texts from research literature as recorded by domain experts are used to classify the mutations to conclusive categories, to be used for diagnosis of the patient. 
 
 ## Overview
 
@@ -11,7 +11,7 @@ Here is the typical workflow :
 
 ### Context
 
-1. A molecular pathologist selects a list of genetic variations of interest that he/she want to analyze.
+1. A molecular pathologist selects a list of genetic variations of interest that he/she wants to analyze.
 2. The molecular pathologist searches for evidence in the medical literature that somehow are relevant to the genetic variations of interest.
 3. Finally this molecular pathologist spends a huge amount of time analyzing the evidence related to each of the variations to classify them
 

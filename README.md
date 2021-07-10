@@ -89,3 +89,21 @@ Metric(s):
 
 Split the dataset randomly into three parts train, cross validation and test with 64%,16%, 20% of data respectively.
 
+
+## Classifiers Used for the Task 
+
+Here, we have performed an analysis of the performance of the following classifiers individually, on the full, pre-processed datatset :
+(Classifer Models Calibrated with **Sigmoid Calibration** as and when required and performed **Hyperparameter Tuning**)
+
+1. Multinomial Naive Bayes' Theorem
+2. K-Nearest Neighbors Classifer
+3. Logistic Regression (One-vs-Rest)
+4. Linear SVM
+5. Random Forest Classifier
+
+### Ensemble
+
+Finally, all these classifiers are **combined** in the following manners for testing :
+
+1. **Stacking Classifer** with Logistic Regression as the meta-classifier
+2. **Maximum Voting Classifier**

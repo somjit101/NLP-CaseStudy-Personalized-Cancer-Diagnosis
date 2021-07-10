@@ -101,6 +101,8 @@ Here, we have performed an analysis of the performance of the following classifi
 4. Linear SVM
 5. Random Forest Classifier
 
+### Ensemble
+
 Finally, all these classifiers are **combined** in the following manners for testing :
 
 1. **Stacking Classifer** with Logistic Regression as the meta-classifier
